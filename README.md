@@ -10,4 +10,4 @@ Create a new file called config, and paste the contents of the native configurat
 
 ##  I use expo, so after installing dependencies and setting up the config file, type expo start on your command line.
 
-##Happy coding!
+## Happy coding!
