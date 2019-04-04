@@ -1,15 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import * as firebase from 'firebase';
-
-var config = {
-  apiKey: "AIzaSyBiWuNKIOVeEHzGjDYxvi09fMgnrNyofpA",
-  authDomain: "react-firebase-698db.firebaseapp.com",
-  databaseURL: "https://react-firebase-698db.firebaseio.com",
-  projectId: "react-firebase-698db",
-  storageBucket: "react-firebase-698db.appspot.com",
-  messagingSenderId: "947393276016"
-};
+import {config} from './config';
 
 firebase.initializeApp(config);
 
